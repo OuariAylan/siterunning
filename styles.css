@@ -1,0 +1,80 @@
+footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2; 
+    border-top: 1px solid #ddd; 
+    font-family: "ITC Avant Garde Gothic", sans-serif; 
+}
+
+/* Style du conteneur principal du footer */
+footer .container {
+    max-width: 1200px; /* Ajustez en fonction de votre mise en page */
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #ddd; /* Bordure autour du conteneur principal */
+    background-color: #fff; /* Fond blanc */
+}
+
+/* Style du texte du copyright */
+footer p {
+    margin: 0;
+    color: #888; /* Couleur du texte */
+}
+
+/* Style des liens dans le footer */
+footer a {
+    color: #3498db; /* Couleur du lien */
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .footer-links, footer .social-media {
+    flex: 1;
+    min-width: 200px; 
+}
+
+
+footer .footer-links ul, footer .social-media ul {
+    display: flex;
+    flex-direction: column;
+}
+footer .footer-links li, footer .social-media li {
+    margin-bottom: 10px;
+}
+
+/* Style du titre "Suivez-nous" */
+footer .social-media p {
+    font-weight: bold;
+}
+
+
+    .top-right {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+        float: right;
+        text-decoration: none;
+    }
+
+    ul.top-right li a {
+        text-decoration: none;
+        color: #000000;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        border: 1px solid white;
+        margin: 10px;
+        font-weight: 500;
+        transition: 0.6s ease;
+    }
+
