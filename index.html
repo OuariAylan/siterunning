@@ -1,79 +1,83 @@
-<html lang="fr">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RapidRhythms</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="js/script.js" defer></script>
+    <title>RapidRythm</title>
   </head>
   <body>
     <div id="overlay"></div>
-    
- 
+
+     <!-- Menu Pour Mobile -->
+    <div id="mobile-menu" class="mobile-main-menu">
+      <ul>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">Boutique</a></li>
+        <li class="mobile-only"><a href="index.html">Accueil</a></li>
+        <li class="mobile-only"><a href="inscription.html">Inscription</a></li>
+        <li class="mobile-only"><a href="connexion.html">Connexion</a></li>
+      </ul>
+    </div>
+
+     <!-- Header et Menu-->
     <header class="main-header">
       <div class="logo">
-        <img width="176" height="79" class="loghead" src="https://marathon-vannes.com/wp-content/themes/Marathon/images/logo.svg" alt="Logo Marathon">
+        <a href="">
+          <img src="" alt="RapidRythm" />
+        </a>
+      </div>
+      <nav class="desktop-main-menu">
         <ul>
-          <ul class="top-right">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Événements</a></li>
-            <li><a href="#">Conseils d'Entraînement</a></li>
-            <li><a href="#">Galerie</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
         </ul>
-        
+      </nav>
+    </header>
+
+    <!-- Hamburger Menu -->
+    <button id="menu-btn" class="hamburger" type="button">
+      <span class="hamburger-top"></span>
+      <span class="hamburger-middle"></span>
+      <span class="hamburger-bottom"></span>
+    </button>
+
+    <!-- Section A -->
+    <section class="section-a">
+      <div class="section-inner">
+        <h4>Prochaine Course</h4>
+        <h2>Marathon de Printemps</h2>
+        <a href="https://www.runtrail.fr/events" class="btn">
+          <div class="hover"></div>
+          <span>Voir</span>
+        </a>
       </div>
-      <div class="banner">
-        <img src="/img/photo haut.png" alt="Bannière Marathon" />
-    </div> 
-    <!-- Menu Pour Mobile -->
-    <div id="mobile-menu" class="mobile-main-menu">
-   
-    </div>
-    <footer>
-      <div class="container">
-          <p>&copy; 2024 RapidRhythms. Tous droits réservés.</p>
-          <p>EUR - Français</p>
-  
-          <div class="footer-links">
-              <ul>
-                  <li><a href="#">L'entreprise</a></li>
-                  <li><a href="#">Jeux-concours</a></li>
-                  <li><a href="#">Qui sommes-nous?</a></li>
-                  <li><a href="#">Comment ça marche ?</a></li>
-                  <li><a href="https://run-motion.com/calcul-vitesse-moyenne-allure/">Calculateur d'allures</a></li>
-                  <li><a href="#">Nous contacter</a></li>
-                  <li><a href="#">Mentions légales</a></li>
-                  <li><a href="#">Conditions générales d'utilisation</a></li>
-                  <li><a href="#">Politique de protection des données personnelles</a></li>
-                  <li><a href="#">Mentions légales</a></li>
-              </ul>
-          </div>
-  
-          <div class="social-media">
-              <p>Suivez-nous</p>
-              <ul>
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Instagram</a></li>
-                  <li><a href="#">Linkedin</a></li>
-                  <li><a href="#">TikTok</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Youtube</a></li>
-              </ul>
-          </div>
-      </div>
-      <footer class="footer-gris"
-      <div class="colonne">
-        <div class="footer-t">
-            <div class="footer-titre"><h3>Newsletter</h3></div>
-            <div class="Inscription email">
-                <p>Inscrivez-vous pour recevoir nos promotions et nouveautés en avant-première.</p>
-                <div class="forme-inscription">
-                    <div class="forme-inscription">
-                        <input id="forme-email" class="email" type="email" placeholder="Votre adresse email...">
-                        <button class="button">Souscrire</button>
-                       </div></div></div> </div></div>
-     
-                      
-  </footer>
-     
+    </section>
+
     
+    <!-- Section B -->
+    <section class="section-b">
+      <div class="section-inner">
+        <h4>Course Récente</h4>
+        <h2>Trail des Montagnes</h2>
+        <a href="https://www.ultra-trail-montagnes-jura.fr/" class="btn">
+          <div class="hover"></div>
+          <span>Voir</span>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <ul>
+        <li>RapidRythm &copy; 2024</li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">YouTube</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
